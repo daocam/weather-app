@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const error404 = document.querySelector(".not-found");
 
     search.addEventListener("click", () => {
-        const API_KEY = "98a1aab9b77b8985fb42dec9b60c79e0";
+        const API_KEY = "votre clé api"; // API open weather
         const city = document.querySelector(".search-box input").value;
 
         if (city === "") return;
